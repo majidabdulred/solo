@@ -1,0 +1,27 @@
+<!-- Created by Paul-->
+
+<!DOCTYPE html>
+<html></html>
+<head>
+<title>Page Title</title>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>    
+<body >
+<canvas id="canvas"></canvas>        
+<div id="select">
+<h1>ElDorado</h1>
+<h3>Difficulty</h3>
+<select onchange="difficulty=this.value;">
+    <option value="1">easy</option>
+    <option value="2">medium</option>
+    <option value="3">hard</option>
+</select>
+<h3>Character</h3>
+    <div class="character" onclick="init('blue');hideSelect();">blue</div>
+    <div class="character" onclick="init('black');hideSelect();";>black</div>
+    <div class="character" onclick="init('magenta');hideSelect(); ";>magenta</div>
+</div>
+<div id="messageBox"></div>
+</body>
+</html>

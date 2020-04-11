@@ -1,0 +1,25 @@
+/* Created by Paul */
+
+body {
+    box-sizing:border-box ;
+    margin:0px 0px 0px 0px;
+}
+
+#select{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    z-index:2;
+    text-align:center;    
+    background-color:beige;
+}
+
+.character{    
+    border:3vw outset grey;    
+    margin:auto;
+    width:50%;
+}
+
+
